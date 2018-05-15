@@ -53,6 +53,7 @@ namespace LinkTest.UWP
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
                 Xamarin.Forms.Forms.Init(e);
+                Forms9Patch.UWP.Settings.Initialize(this);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

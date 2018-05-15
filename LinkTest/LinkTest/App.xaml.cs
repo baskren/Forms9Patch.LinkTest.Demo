@@ -11,7 +11,7 @@ namespace LinkTest
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			MainPage = Forms9Patch.RootPage.Create(new MainPage());
 		}
 
 		protected override void OnStart ()

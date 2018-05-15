@@ -20,6 +20,7 @@ namespace LinkTest.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            Forms9Patch.Droid.Settings.Initialize(this);
             LoadApplication(new App());
         }
     }
