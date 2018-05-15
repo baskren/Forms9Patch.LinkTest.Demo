@@ -9,12 +9,12 @@ This demo app shows a very basic XAML based Forms9Patch app that runs on iOS, An
 
 Forms9Patch is a suite of enhancements for Xamarin.Forms:
 
- - Patch scalable images
+ - Patch (9-Patch and CapsInset) scalable images
  - SVG images
  - Single point of use, cross platform, multi-screen / multi-resolution image management
  - Simple, markup formatted text for labels and buttons
  - Single point of use, cross platform, custom font management
  - Segmented button control
- - Pop-ups as a first class layout element 
+ - A suite of Pop-up elements that are first class layout elements 
  
 Forms9Patch is available as [a Nuget package](https://www.nuget.org/packages/Forms9Patch/) or [source code](https://bitbucket.org/baskren/forms9patch2/src/master/). 
